@@ -1,0 +1,23 @@
+Python 3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> # Program a: Arithmetic Operations
+... # Enter two numbers and perform arithmetic operations
+... 
+... # Input from user
+... num1 = float(input("Enter first number: "))
+... num2 = float(input("Enter second number: "))
+... 
+... # Arithmetic operations
+... print("Addition:", num1 + num2)
+... print("Subtraction:", num1 - num2)
+... print("Multiplication:", num1 * num2)
+... 
+... # Handling division by zero
+... if num2 != 0:
+...     print("Division:", num1 / num2)
+... else:
+...     print("Division: Cannot divide by zero")
+...     
+SyntaxError: multiple statements found while compiling a single statement
+>>> print("The first 10 natural numbers are:")
+... for i in range(1, 11):
